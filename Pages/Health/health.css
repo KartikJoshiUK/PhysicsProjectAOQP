@@ -1,0 +1,41 @@
+/* content */
+
+#item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+#item img{
+    border: 3px solid white;
+    padding: 2%;
+    border-radius: 10px;
+    height: 80vh;
+    width: auto;
+}
+#item p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    padding: 4%;
+    background-color: rgba(250, 250, 250, 0.195);
+}
+iframe{
+    height: 60vh;
+}
+
+/* Carausel */
+#carouselExampleControls{
+    padding: 5%;
+}
+.carousel-item img {
+    height: 90vh;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+@media only screen and (max-width:767px){
+    .carousel-item img {
+        height: 50vh;
+    }
+}

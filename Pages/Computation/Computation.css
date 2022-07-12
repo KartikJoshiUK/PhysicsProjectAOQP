@@ -1,0 +1,88 @@
+/* content */
+
+#item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+#item img{
+    border: 3px solid white;
+    padding: 2%;
+    border-radius: 10px;
+    height: 80vh;
+    width: auto;
+}
+#item p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    padding: 4%;
+    background-color: rgba(250, 250, 250, 0.195);
+}
+
+/* accordation */
+#Container0{
+    display: flex;
+    justify-content: center;
+}
+#accordionExample{
+    width: 90%;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 2%;
+}
+#accordionExample button{
+    font-size: 2.3rem;
+}
+.accordion-item{
+    background-color: black;
+    color: white;
+}
+.accordion-button{
+    background-color: rgba(26, 61, 127, 0.922);
+    color: white;
+}
+/* rgba(26, 61, 127, 0.922) */
+
+
+/* concepts */
+/* CARDS */
+#Container1{
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#Card {
+    background-image:url("src/bg2.webp");
+    padding: 3%;
+    margin: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+.card{
+    width: 50%;
+}
+
+
+@media only screen and (max-width:1000px){
+    #Card{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .card{
+        width: 90%;
+    }
+    .card img{
+        width: 90%;
+    }
+    #Others div{
+        margin: 10px;
+    }
+}
